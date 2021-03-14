@@ -1,0 +1,123 @@
+
+.bg{
+    background-color: #242F40;
+    margin-top: -230px;
+}
+
+.top_heading{
+    color: "white";
+}
+
+.search_bg{
+    background: url('/src/Components/images/unsplash-honda-city.jpg') bottom left no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin: 0px 0 0 0;
+}
+
+
+.search_bar{
+    width: 83%;
+    background-color: #ccc3c3;
+    height: 7vh;
+    border-radius: 1px 0 0 1px;
+    opacity: 0.65;
+    margin-right: 10px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+.search-btn{
+    width: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      font-size: 1.9rem;
+      justify-content: center;
+      font-weight: lighter;
+      border-radius: 50px;
+      background-color: transparent;
+      border: transparent;
+      color: whitesmoke;
+      opacity: 0.5;
+}
+
+/* btn search-btn:hover{
+    transition: ease-in-out 1s;
+    opacity: 1;
+    font-size: 2rem;
+} */
+
+
+h1{
+    justify-content: center;
+    margin: 25px 30px 0 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+}
+
+h2{
+    margin: 15px 0 0 40px;
+}
+
+h3{
+    text-align: center;
+}
+
+
+h5{
+    width: 100%;
+    margin-left: 30px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.p{
+    font-family:  sans-serif;
+    
+}
+
+.main-bg{
+    background-color: #F7F7F7;
+    box-shadow: 0 0 20px 0 black;
+}
+
+.banner-img1{
+    background: url('/src/Components/images/red-ferrari.jpg') 50% 80% no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 5%;
+    height: 50vh;
+    width: 90%;
+    transform: translate(-20%, -20%);
+    transition: all 2s;
+    transform: scale(1);
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.banner-img2{
+    background: url('/src/Components/images/bmw.jpg') 50% 60% no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 5%;
+    height: 50vh;
+    width: 90%;
+    transform: translate(-20%, -20%);
+    transition: all 2s;
+    transform: scale(1);
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    opacity: 0.75;
+    background-color: #f7f7f7;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}

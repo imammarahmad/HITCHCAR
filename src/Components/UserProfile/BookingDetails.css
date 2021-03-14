@@ -1,0 +1,70 @@
+.bg-description{
+    background-color: #242F40;
+    width: 100%;
+    height: auto;
+    margin-top: -230px;
+    position: absolute  ;
+}
+.main-bg-description{
+    background-color: #F7F7F7;
+    box-shadow: 0 0 20px 0 black;
+    width: 90%;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.h2-details{
+    width: "100%";
+    text-align: center;
+}
+
+.img-container{
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 25rem;
+    margin: 0 20px 40px 20px;
+    
+}
+
+.image-description-img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    transition: all 2s;
+    transform: scale(1);
+    border-radius: 10px;
+}
+
+.h3-car-details{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.h3-user-details{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.span-details{
+    width: 25%;
+    display: inline-block;
+}
+
+h5{
+    margin-top: -23px;
+    width: "100%";
+}
+
+.book-btn{
+    width: 95%;
+    justify-content: center;
+    margin: 30px 0 15px 0;
+    margin-left: 32px;
+}

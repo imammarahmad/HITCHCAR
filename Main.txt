@@ -1,0 +1,111 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Main.css';
+import CenteredTabs from './CenteredTabs';
+import Cards from './Cards';
+import reactpic from '../images/react.jpeg';
+import firebasepic from '../images/firebase.png';
+import saaspic from '../images/bm3.png';
+import SearchIcon from '@material-ui/icons/Search';
+import { NavLink } from 'react-router-dom';
+import { useAuth } from "../Context/AuthContext";
+
+
+
+
+const Main = () => {
+    
+
+    const search = {
+        margin: "5px 0 0 4px"
+    }
+    
+
+    const banner = {
+        height: "50vh", 
+        width: "100%", 
+        margin: "20px 0 20px 0", 
+        borderRadius: "15px"
+    }
+  
+    return (
+        <>
+            {/* <div style={{backgroundColor: "cyan",
+            height: "6vh", width: "10%", margin: "20px 0 0 10px"}}>
+                <span style={{fontSize:"1.5rem"}}><KeyboardBackspaceOutlinedIcon/></span></div>  */}
+            <div className="search_bg img-fluid">
+                <div className="container">
+                    <div className="row">
+                        <h1 style={{color: "white", margin: "250px 0 0 350px"}}>Rental Cars in <span>Pakistan</span></h1>
+                        <input type="text"  className="search_bar form-control" placeholder="Search Here..." style={{marginTop: "70px"}}/>
+                        <span><button className="btn brn-lg btn-primary search-btn input-group-append" style={{marginTop: "70px"}}><SearchIcon style={{fontSize: "2.15rem"}}/></button></span>
+                    </div>
+                    <div className="row">
+                        <ul class="list-group ">
+                            <CenteredTabs />
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="container-xxl" style={{margin: "0 70px 0 70px"}}>   
+                <div className="row" style={{marginTop: "20px"}}>
+                    <h1>Hatchbacks for Savers</h1><NavLink to="/CarDescription"><button className="btn btn-danger btn-small" style={{marginTop:"33px", height:"40px"}}>Discover More</button></NavLink>
+                </div>
+
+                <div style={{marginTop: "10px"}} className="row">
+                    <Cards />
+                </div>
+
+                <div style={{marginTop: "20px"}}>
+                    <img src={reactpic} className="img-fluid" alt="Responsive image" style ={banner} />
+                </div>
+
+                <div className="row" style={{marginTop: "20px"}}>
+                    <h1>Mid-Size Sedans for Business</h1><button className="btn btn-danger btn-small" style={{marginTop:"33px", height:"40px"}}>Discover More</button>
+                </div>
+
+                <div style={{marginTop: "10px"}} className="row">
+                    <Cards />
+                </div>
+
+                <div style={{marginTop: "20px"}}>
+                    <img src={firebasepic} className="img-fluid" alt="Responsive image" style ={banner} />
+                </div>
+
+                <div className="row" style={{marginTop: "20px"}}>
+                    <h1>SUV for Executives</h1><button className="btn btn-danger btn-small" style={{marginTop:"33px", height:"40px"}}>Discover More</button>
+                </div>
+
+                <div style={{marginTop: "10px"}} className="row">
+                    <Cards />
+                </div>
+                
+                <div style={{marginTop: "20px"}}>
+                    <img src={saaspic} className="img-fluid" alt="Responsive image" style ={banner} />
+                </div>
+                
+            </div>
+
+            <div className="container" style={{backgroundColor: "aliceblue"}}>
+                <div className="row">
+                    <h1 style={{margin: "0 0 30px 370px"}}>Terms and Conditions</h1>
+                    <div className="col-sm-4">
+                        <h3>Condition 1</h3>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div className="col-sm-4">
+                        <h3>Condition 2</h3>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div className="col-sm-4">
+                        <h3>Condition 3</h3>
+                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+            </div>
+        </>
+    );
+}
+
+export default Main;

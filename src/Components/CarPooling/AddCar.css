@@ -1,0 +1,56 @@
+
+  
+  /* modal styles */
+  .backdrop{
+    position: fixed;
+    top: 6rem;
+    left: 12rem;
+    width: 73%;
+    height: 84%;
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    border-radius: 20px;
+  }
+  .add-form{
+      margin: 0;
+      padding: 0;
+      opacity: 1;
+      margin-left: 80px;
+  }
+
+  .search {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 10;
+  }
+
+  .search input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .info-window{
+    height: 35vh;
+    width: 40vh;
+    
+  }
+
+  .submit-btn{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .p-text{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+  }
+  

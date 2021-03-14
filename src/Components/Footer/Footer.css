@@ -1,0 +1,18 @@
+.footer{
+    margin-top: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-comps{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    margin-left: 30px;
+}

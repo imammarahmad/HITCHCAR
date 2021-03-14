@@ -1,0 +1,13 @@
+.output{
+    height: 60px;
+    font-size: 0.8rem;
+  }
+
+  .progress-bar{
+    height: 5px;
+    background: black;
+    color: black;
+    margin-top: 00px;
+    position: relative;
+    margin-left: 30px;
+  }
