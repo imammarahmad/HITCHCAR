@@ -25,7 +25,7 @@ const mapContainerStyle = {
 
 const ShowPooled = () => {
 
-  Geocode.setApiKey("AIzaSyD1QEf9w9as5fXiNiHhS9F98ASWF0698bQ");
+  Geocode.setApiKey("");
   Geocode.setLanguage("en");
   Geocode.setRegion("es");
   Geocode.setLocationType("ROOFTOP");
